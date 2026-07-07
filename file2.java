@@ -4,6 +4,7 @@
         
         String s="10";
         String s2="10";
+<<<<<<< HEAD
          if (s == s2) {
          System.out.print("Both  have same Refernce Both located at same");
       } else {
@@ -15,5 +16,13 @@
       Integer d=200;
       System.out.println(a==b);
       System.out.print(c==d);
+=======
+        if(s==s2){
+         System.out.print("Both  have same Refernce Both located at same");
+        }else{
+                     System.out.print("Both  have diff Refernce ");
+
+        }
+>>>>>>> feature
     }
 }
