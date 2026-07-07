@@ -4,7 +4,11 @@
         
         String s="10";
         String s2="10";
-        System.err.println(s==s2);
-        System.out.print(s.equals(s2));
+        if(s==s2){
+         System.out.print("Both  have same Refernce Both located at same");
+        }else{
+                     System.out.print("Both  have diff Refernce ");
+
+        }
     }
 }
